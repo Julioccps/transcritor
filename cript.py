@@ -194,7 +194,7 @@ class Cript:
 cript = Cript()
 
 def main():
-    escl = input('O que você quer fazer? criptografar, descriptografar ou transcrever? (crip/descrip/transc)')
+    escl = input('O que você quer fazer? criptografar, descriptografar ou transcrever? (crip/descrip/transc) ')
     if escl == 'crip':
         txt1 = input('Digite o txto que você quer criptografar:')
         crip_txt1 = cript.cript_txt(txt1)
